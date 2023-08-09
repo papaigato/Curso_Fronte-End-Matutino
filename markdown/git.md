@@ -12,14 +12,18 @@
 
 - (git commit -m " " ): usar quando for configurar os arquivos que vão projetar.
 
-- (git config --global user.name): 
+- (git config --global user.name): configura um usuario de forma global para realizar os commits 
 
 - (git config --list ): Listar as configurações globais
 
-- (git config --global user.email): Configura um email escolhido como usuario global para realizar commit
+- (git config --global user.email): Configura um email escolhido como usuario global para realizar commits
 
-- (git log): mostrar o histórico de commit 
+- (git log): Mostrar o histórico de commit 
 
 - (git branch -M "name"): Alterar o nome da ramificação
 
-- (git checkout -b “name”): cria uma nova ramificação do codigo principal para trabalhar em paz.
+- (git checkout -b “name”): Cria uma nova ramificação do codigo principal para trabalhar em paz.
+
+- (git checkout  "name"): Migrar para a linha do tempo que foi recém criada..
+
+- (git chechout "name"): Para voltar para a linha escolhida ou principal..

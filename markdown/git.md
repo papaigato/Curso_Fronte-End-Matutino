@@ -16,11 +16,9 @@
 
 - (git config --list ) : Listar as configurações globais
 
-<<<<<<< HEAD
 - (git config --global user.email): Configura um email escolhido como usuario global para realizar comits
 
 - ()
-=======
 - (git config --global user.email) : Configura um email escolhido como usuario global para realizar commits
 
 - (git log) : Mostrar o histórico de commit 
@@ -42,4 +40,3 @@
 - (git config –global –unset-al user.email) : para remover o email.
 
 - (git config --list) : para olhar a lista de nomes
->>>>>>> html

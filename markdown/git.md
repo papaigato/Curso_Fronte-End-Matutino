@@ -17,3 +17,5 @@
 - (git config --list ):
 
 - (git config --global user.email): Configura um email escolhido como usuario global para realizar comits
+
+- ()

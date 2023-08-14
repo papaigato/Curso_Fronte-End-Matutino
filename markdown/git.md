@@ -35,8 +35,10 @@
 
 - (git branch rm "name") : Apagar a ramificação selecionada.. 
 
-- (git config –global –unset-al user.name) : Para remover o usuario.
+- (git config -–global –-unset-al user.name) : Para remover o usuario.
 
-- (git config –global –unset-al user.email) : para remover o email.
+- (git config –-global -–unset-al user.email) : para remover o email.
 
 - (git config --list) : para olhar a lista de nomes
+
+- (git pull) : ele sincorniza as mudança do visual para o github

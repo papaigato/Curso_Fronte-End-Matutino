@@ -1,0 +1,43 @@
+ @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=JetBrains+Mono:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+ *{
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+ }
+
+ body{
+         width: 100vw;
+         height: 100vw;
+         background-image: linear-gradient(45deg, red, green, blue);
+ }
+ 
+ header{
+         display: flex;
+         justify-content: space-between;
+         font-family: 'JetBrains Mono', monospace;
+         border-bottom: 1px solid black;
+         height: 30px;
+         align-items: center;
+ }
+ a{
+         text-decoration: none;
+ }
+
+ #globo{
+        color: #ee3042;
+
+ }
+ #gsshow{
+        color: #ff6700
+ }
+ #g1{
+        color: #c4170c
+ }
+ #g2{
+        color: #06aa48
+ }
+ #site{
+        color: #5aa2eb  
+ }
+ 
+

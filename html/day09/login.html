@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formularios</title>
+</head>
+<body>
+        <h2>Login</h2>
+
+        <form action="login.js" method="post">
+                <div>
+                        <label for="1name">nome:</label>
+                        <input type="text" id="1name" name="name" placeholder="primeiro nome" required>
+                </div>
+                
+                <div>
+                        <label for="iemail">Email:</label>
+                        <input type="email" id="iemail" name="iemail" placeholder="exemplo@gmail.com" required>                
+                </div>
+
+                <div>
+                        <label for="isenha">Senha:</label>
+                        <input type="password" id="isenha" name="isenha" maxlength="16" minlength="8" placeholder="minimo 8 dígitos" required>
+                </div>
+
+                <div>
+                        <label for="inascimento">Nascimento:</label>
+                        <input type="date" required id="inascimento" name="nascimento">
+                </div>
+                <div>
+                        <label for="icolor">Selecione uma cor!</label>
+                        <input type="color" name="color" id="icolor" value="#00ff00">
+                </div>
+                <div>
+                        <label for="ifile">Anexe uma foto</label>
+                        <br>
+                        <input type="image" id="ifile" name="file">
+                </div>
+                <div>
+                        <label for="irange">range</label>
+                        <input type="range" id="irange" name="range" max="5" min="1">
+                </div>
+
+                <input type="submit" value="sexo!!">
+
+
+
+
+
+
+
+        </form>
+</body>
+</html>

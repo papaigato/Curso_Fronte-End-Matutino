@@ -1,0 +1,17 @@
+*{
+        margin: 0;
+        padding: 0;
+
+}
+body{
+        background-image: url(../../imagens/background.jpg);
+        display: flex;
+}
+#Logo{
+        width: 400px;
+        margin-right: 20px;
+        justify-content: left;
+}
+main{
+        
+}

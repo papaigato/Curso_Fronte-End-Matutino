@@ -1,0 +1,11 @@
+.quadrado{
+        height: 50px;
+        width: 50px;
+        background-color: burlywood;
+        margin: 5px;
+}
+
+.circulo{
+        border-radius: 50%;
+        background-color: burlywood;
+}

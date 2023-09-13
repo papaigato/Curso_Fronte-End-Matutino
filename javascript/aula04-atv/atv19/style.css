@@ -1,0 +1,61 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color:;
+}
+
+h1{
+        text-align: center;
+}
+
+body{
+        width: 100vw;
+        height: 100vh;
+
+}
+
+.container{
+        width: 80%;
+        margin: auto;
+}
+
+#elemento{
+        margin: auto;
+        width: fit-content;
+}
+
+.one , .two{
+        padding: 1.5em;
+        border: 1px solid black;
+        display: inline-block;
+        margin: 1em 0.5em;
+
+}
+
+button{
+        padding: 0.3em;
+}
+
+ul{
+        list-style: none;
+}
+
+li{
+        border: 1px solid black;
+        margin: 0.5em 0;
+        padding: 0.3em;
+        transition: 0.5s;
+}
+
+li:hover{
+        color: white;
+        background-color: black;
+}
+
+.one .selecionado{
+        box-shadow: 0 0 3pc green, inset 0 0 3px green;
+}
+.two .selecionado{
+        box-shadow: 0 0 3pc red, inset 0 0 3px red;
+}

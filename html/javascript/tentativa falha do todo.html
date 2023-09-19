@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Lista de Compras</h1>
+
+    <input type="text" id="input" />
+    <button id="button">Compras</button>
+
+    <button id="delete">Deletar</button>
+
+    <ul id="lista"></ul>
+
+    <script>
+      const buttton = document.querySelector("#button");
+      const input = document.querySelector("#input");
+      const lista = document.querySelector("#lista");
+      const deletar = document.querySelector("#delete");
+
+      let array = [];
+
+      let storageArray = localStorage.compras
+        ? localStorage.compras.split(",")
+        : localStorage.setItem("compras", array);
+
+      buttton.addEventListener("click", () => {
+        if (input.value.length > 0) {
+          array.push(input.value);
+          localStorage.compras.length > 0
+            ? (localStorage.compras += "," + array)
+            : (localStorage.compras = array);
+        }
+      });
+
+      window.addEventListener("DOMContentLoaded", () => {
+        for (let i in storageArray) {
+          lista.innerHTML += `<li>${storageArray[i]}</li>`;
+        }
+      });
+
+      deletar.addEventListener("click", () => {
+        localStorage.clear();
+        lista.remove();
+
+        input.value = "";
+      });
+    </script>
+  </body>
+</html>

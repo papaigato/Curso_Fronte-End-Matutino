@@ -1,0 +1,49 @@
+.hide{
+        display: none !important;
+
+}
+
+#sec-modal{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.096);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.modal{
+        background-color: white;
+        padding: 1em;
+        border-radius: 5px;
+        margin: 2.5em;
+        box-shadow: 2px 2px 5px var(--medium);
+}
+
+.modal  h1{
+        text-align: center;
+}
+
+.modal p{
+        text-indent: 1.5em;
+        text-align: justify;
+}
+
+.modal main{
+        margin: 1.5em 0;
+}
+
+.modal footer{
+        display: flex;
+        gap: 1em;
+        justify-content: flex-end;
+}
+
+#confirma{
+        background-color: var(--confirma);
+}
+#concela{
+        background-color: var(--cancela);
+
+}
